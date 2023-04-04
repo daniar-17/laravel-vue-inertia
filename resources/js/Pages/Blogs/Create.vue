@@ -107,6 +107,11 @@ const submit = () => {
                             >
                                 Submit
                             </button>
+                            <div class="mb-2 float-right">
+                                <Link :href="route('blogs.index')">
+                                    <PrimaryButton>Back</PrimaryButton></Link
+                                >
+                            </div>
                         </form>
                     </div>
                 </div>
